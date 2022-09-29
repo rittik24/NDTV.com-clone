@@ -1,7 +1,6 @@
-import { header} from "./script/header";
-import { footer} from "./script/footer";
-let header = document.querySelector("#header");
-header.innerHTML=header();
-let footer = document.querySelector("#footer");
-footer.innerHTML=footer();
-alert("hello")
+import { header} from "../scripts/header.js";
+import { footer} from "../scripts/footer.js";
+let headr = document.querySelector("#header");
+headr.innerHTML=header();
+let footr = document.querySelector("#footer");
+footr.innerHTML=footer();
