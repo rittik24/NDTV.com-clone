@@ -1,4 +1,4 @@
- import {appendMainNews, appendTrendingNews } from "../scripts/append.js";
+import {appendMainNews, appendTrendingNews } from "../scripts/append.js";
 
 const latestData = async() => {
   
