@@ -1,11 +1,11 @@
 let data = [
     {
-      img: "https://c.ndtvimg.com/2022-09/cv7e90qo_the-video-has-garnered-14-million-views_120x90_27_September_22.jpg",
+      img: "https://c.ndtvimg.com/2022-09/57h3g1oo_ms-cristoforetti-can-be-seen-striking-yoga-poses_120x90_28_September_22.jpg",
       headline:
-        "Watch: Mother Makes An Innovative Backseat For Her Child On Bicycle, Internet Finds It Impressive",
+        "Astronaut Does Yoga In Space, Perfectly Aces Difficult Pose In Viral Video",
       p1: "Edited by Anjali Thakur | Tuesday September 27, 2022",
       p2: "Along with the video, Mr Goenka wrote, What a mother wont do for her child.",
-      path: "https://www.ndtv.com/offbeat/watch-mother-makes-an-innovative-backseat-for-her-child-on-bicycle-internet-finds-it-impressive-3383300",
+      path: "https://www.ndtv.com/offbeat/astronaut-does-yoga-in-space-perfectly-aces-difficult-pose-in-viral-video-3386654",
     },
   
     {
