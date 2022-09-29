@@ -152,35 +152,35 @@ data.forEach(function (elem) {
 // ----------------
 let data2 = [
   {
-    img: "https://c.ndtvimg.com/2022-09/ohjgehp_harjot-kaur-bhamra-head-of-women-and-child-development-corporation-at-tuesdays-function-in-patna_120x90_28_September_22.jpg",
-    p: "Video: Want Condoms Too Bihar Officer-s Shocker On Girl-s Sanitary Pad Query",
+    img: "https://c.ndtvimg.com/2022-09/us9mq07g_mackenzie-scott_120x90_08_September_22.jpg",
+    p: "MacKenzie Scott, Jeff Bezos' Ex, Seeks Divorce From Teacher Husband",
     path: "https://www.ndtv.com/india-news/want-condoms-too-bihar-officer-to-schoolgirl-on-sanitary-pad-question-invokes-pakistan-3385283#trendingnow",
   },
   {
-    img: "https://c.ndtvimg.com/2022-09/ohjgehp_harjot-kaur-bhamra-head-of-women-and-child-development-corporation-at-tuesdays-function-in-patna_120x90_28_September_22.jpg",
-    p: "Video: Condoms Too? Bihar Officer To Schoolgirl On Sanitary Pad Query",
-    path: "https://www.ndtv.com/india-news/want-condoms-too-bihar-officer-to-schoolgirl-on-sanitary-pad-question-invokes-pakistan-3385283#News_Trending",
+    img: "https://c.ndtvimg.com/2021-06/dctrp8oo_ebrahim-raisi-650_625x300_19_June_21.jpeg",
+    p: "As Anti-Hijab Protests Grow, Iran President Draws The -Red Line",
+    path: "https://www.ndtv.com/world-news/iran-anti-hijab-protests-after-mahsa-aminis-death-iran-president-ebrahim-raisi-says-amid-nationwide-protests-3387095#trendingnow",
   },
   {
-    img: "https://c.ndtvimg.com/2022-09/h852d5hg_sobhitaethnicmakeup1_120x90_27_September_22.jpg",
-    p: "Beauty Sobhita Dhulipala's Ethnic Makeup",
-    path: "https://swirlster.ndtv.com/webstories/beauty/sobhita-dhulipalas-ethnic-makeup-6987?utm_source=www.ndtv.com&utm_medium=web-page&utm_campaign=webstories",
+    img: "https://c.ndtvimg.com/2022-09/sqo11c18_credit-card-generic-240_120x90_13_September_22.jpg",
+    p: "New Rule For Your Credit Card Begins On Saturday. Details Here",
+    path: "https://www.ndtv.com/india-news/reserve-bank-of-india-unlikely-to-extend-card-tokenisation-deadline-3386806#trendingnow",
   },
   {
-    img: "https://c.ndtvimg.com/2022-09/u6lh50fc_navratricelebsthumb_120x90_27_September_22.jpg",
-    p: "Entertainment  Navratri Colours, As Seen On Celebs",
-    path: "https://movies.ndtv.com/webstories/entertainment/navratri-colours-as-seen-on-celebs-6983?utm_source=www.ndtv.com&utm_medium=web-page&utm_campaign=webstories",
+    img: "https://c.ndtvimg.com/2022-07/25kmg3po_reliance_625x300_25_July_22.jpg",
+    p: "With Mukesh Ambani's Daughter In Charge, Reliance To Take On Zara, Mango",
+    path: "https://www.ndtv.com/business/with-mukesh-ambanis-daughter-in-charge-reliance-to-take-on-zara-mango-3387550#trendingnow",
   },
 
   {
-    img: "https://c.ndtvimg.com/2022-09/g7pb86do_malayalam-actors-at-kerala-mall_240x180_28_September_22.jpg",
-    p: "Video Of Malayalam Actors Being Groped In Kerala Mall Prompts Probe",
-    path: "https://www.ndtv.com/kerala-news/video-of-malayalam-actors-being-groped-at-kerala-mall-prompts-probe-3384171#News_Trending",
+    img: "https://c.ndtvimg.com/2022-09/s2rlbofg_digvijaya-singh-files-nomination-pti-pic_650x400_29_September_22.jpg",
+    p: "Digvijaya Singh Is On. Congress President Polls Gets Another Contender",
+    path: "https://www.ndtv.com/india-news/congresss-digvijaya-singh-joins-party-president-race-says-will-file-nomination-tomorrow-3387743#trendingnow",
   },
   {
-    img: "https://c.ndtvimg.com/2022-09/1ht7kki_sabudana-aloo-chilla_120x90_26_September_22.jpg",
-    p: "Food Navratri Special Sabudana Aloo Chilla",
-    path: "https://food.ndtv.com/webstories/food/navratri-special-sabudana-aloo-chilla-6968?utm_source=www.ndtv.com&utm_medium=web-page&utm_campaign=webstories",
+    img: "https://c.ndtvimg.com/2022-09/eqbkads_janhvi-kapoor_625x300_29_September_22.jpg",
+    p: "Koffee With Karan 7: The Sara Ali Khan-Janhvi Kapoor Oopsie That We Didn't See",
+    path: "https://www.ndtv.com/entertainment/koffee-with-karan-7-wait-what-janhvi-kapoor-won-the-rapid-fire-round-by-mistake-3387446#trendingnow",
   },
 ];
 
@@ -210,29 +210,29 @@ data2.forEach(function (elem) {
 
 let data3 = [
   {
-    img: "https://c.ndtvimg.com/2022-09/ukhddivo_sonia_625x300_22_September_22.jpg",
-    text: "प्राण के साथ दिख रही यह हसीना ‘किसिंग गर्ल’ के नाम से थी मशहूर, फिल्में छोड़ कर बन गई थी इस राज घराने की राजमाता",
-    path: "https://ndtv.in/bollywood/this-beautiful-lady-seen-with-pran-was-a-famous-actress-had-left-films-and-married-a-prince-3367087?utm_source=TBKB&utm_medium=TBexchange&utm_campaign=Taboola&tblci=GiAxtYfxTTW7SsaAgjFCDMjpsn_L9FPfCM4mCGSbKMi4QSDQ1z4omruI9Y-zscF-",
+    img: "https://c.ndtvimg.com/2019-04/nvpgt5p4_baramulla-udhampur-highway-ban_625x300_07_April_19.jpg",
+    text: "Hours After 1st Blast, Another Bus Explodes In Jammu And Kashmir: Cops",
+    path: "https://www.ndtv.com/india-news/hours-after-1st-blast-another-bus-explodes-in-jammu-and-kashmir-cops-3387246",
   },
   {
-    img: "https://c.ndtvimg.com/2022-09/tntlt7gg_rupali-had-married-iqbal-sheikh-three-years-ago_625x300_27_September_22.jpg",
-    text: "​HomeMumbaiMumbai Man Allegedly Stabs Estranged Wife To Death Over Not Wearing Burqa ",
-    path: "https://www.ndtv.com/mumbai-news/mumbai-taxi-driver-kills-estranged-wife-over-not-following-muslim-customs-3381569",
+    img: "https://c.ndtvimg.com/2022-09/vu21ki4o_assam-pfi-raid-ndtv-650_650x400_27_September_22.jpg",
+    text: "25 Popular Front of India Leaders Arrested In Assam In Round 2 Of Raids",
+    path: "https://www.ndtv.com/india-news/25-popular-front-of-india-leaders-arrested-in-assam-in-round-2-of-raids-3382083",
   },
   {
-    img: "https://c.ndtvimg.com/2022-09/7cmv2rho_celina-jaitley-shriya-saran_625x300_21_September_22.jpg",
-    text: "देसी हीरो को छोड़ विदेशियों पर आया बॉलीवुड की इन पांच एक्ट्रेस का दिल, शादी कर बनाया जीवनसाथी",
-    path: "https://ndtv.in/bollywood/priyanka-chopra-to-radhika-apte-these-five-bollywood-actress-got-married-foreigners-3365589?utm_source=TBKB&utm_medium=TBexchange&utm_campaign=Taboola&tblci=GiAxtYfxTTW7SsaAgjFCDMjpsn_L9FPfCM4mCGSbKMi4QSDQ1z4oya-SuIrc8qx6",
+    img: "https://c.ndtvimg.com/2022-09/pmnt3peo_tips-to-keep-foods-fresh-for-longer_625x300_28_September_22.jpg",
+    text: "फल और सब्जियां जल्दी हो जाते हैं खराब तो बस अपना लें ये ट्रिक्स, ना केले गलेंगे और ना धनिया सड़ेगा दूसरे ही दिन ",
+    path: "https://ndtv.in/lifestyle/tips-and-tricks-to-keep-fruits-and-vegetables-fresh-longer-fal-aur-sabjiya-taza-rakhne-ke-tips-3384323?utm_source=TBKB&utm_medium=TBexchange&utm_campaign=Taboola&tblci=GiApPgcF1d8cknUg4Dz6L1q8wWzo6P8ZCP97VJt70jIJhSDQ1z4onsaN8eeazPKWAQ",
   },
   {
-    img: "https://c.ndtvimg.com/2022-08/dktpqdjc_yogi-adityanathtwitter_625x300_03_August_22.jpg",
-    text: "Ban On Popular Front Of India (PFI) Commendable, Says Yogi Adityanath",
-    path: "https://www.ndtv.com/india-news/ban-on-popular-front-of-india-pfi-commendable-says-yogi-adityanath-3385378",
+    img: "https://nexaprod4.azureedge.net/-/media/feature/nexawebsitecarbrand/xl6/banner/brand-page-car_nexa-blue.webp?modified=20220419154630",
+    text: "ALL-NEW NEXA XL6 BY MARUTI SUZUKI",
+    path: "https://www.nexaexperience.com/xl6?utm_source=OneNative&utm_medium=Banners&utm_campaign=XL6_Consideration_Campaign&utm_id=020208202201#tblciGiApPgcF1d8cknUg4Dz6L1q8wWzo6P8ZCP97VJt70jIJhSCrjVkootyQz6CJiZjOAQ",
   },
   {
-    img: "https://c.ndtvimg.com/2020-10/j526stv_kapil-dev-afp_625x300_23_October_20.jpg?im=FeatureCrop,algorithm=dnn,width=806,height=605",
-    text: "Instead Of Intense Debates...: Kapil Dev Suggests A Better Solution After Deepti Sharma's Run-Out Of Charlie Dean",
-    path: "https://sports.ndtv.com/cricket/instead-of-intense-debates-kapil-dev-suggests-a-better-solution-after-deepti-sharmas-run-out-of-charlie-dean-3378874",
+    img: "https://c.ndtvimg.com/2022-09/78n03nvo_diamond-businessman_625x300_28_September_22.jpg",
+    text: "Gujarat Diamond Merchant, Who Barred Staff From Promoting AAP, Joins BJP",
+    path: "https://www.ndtv.com/india-news/gujarat-businessman-who-barred-his-employees-from-doing-aaps-publicity-joins-bjp-3384498",
   },
 
   {
@@ -242,15 +242,15 @@ let data3 = [
   },
 
   {
-    img: "https://c.ndtvimg.com/2022-09/9ahfrrbo_sonakshi_625x300_22_September_22.jpg",
-    text: "Double XL Teaser: Sonakshi Sinha And Huma Qureshi Promise 'A Story Of Friendship'",
-    path: "https://www.ndtv.com/entertainment/double-xl-teaser-sonakshi-sinha-and-huma-qureshi-promise-a-story-of-friendship-3368559",
+    img: "https://c.ndtvimg.com/2022-09/jb0bhh5o_ramkhelawan-patel-is-minister-of-state-in-shivraj-chouhans-bjp-government_625x300_29_September_22.jpg",
+    text: "Will Hang You: Reportedly What Madhya Pradesh Minister Said On Tape",
+    path: "https://www.ndtv.com/india-news/in-viral-audio-madhya-pradesh-minister-allegedly-tells-officer-will-hang-upside-down-if-3387499",
   },
 
   {
-    img: "https://c.ndtvimg.com/2022-09/oknbr8mg_-anusha-dandekar_625x300_20_September_22.jpg",
-    text: "When Anusha Dandekar Officiated Her Friends' Wedding In Sydney",
-    path: "https://www.ndtv.com/entertainment/when-anusha-dandekar-officiated-her-friends-wedding-in-sydney-3360993",
+    img: "https://res.cloudinary.com/dhqvlsb3l/image/upload/f_auto,fl_lossy,q_auto/signia_founders_india_horizon/fallback_desktop.jpg",
+    text: "Changing lives in India: Here’s how this German hearing aid company does it!",
+    path: "https://in.hear.com/d/en_horizon_founders_aasia1876b/?utm_content=3567308384&utm_publisher_ID=ndtv&mkt_tool_id=9b53f7&utm_term=9b53f7&ga_id=review1234&aud_c=tb6334&act=ACT0000043633ACT&utm_source=taboola&utm_medium=display&utm_campaign=in_en_hea_display_taboola_horizon_founders_acq_desktop_creative_audibene-india-sc_ACT0000043633ACT&utm_creative_ID=3567308384&aud_adcopy=Latest+German+hearing+aids+are+in+India.+Try+their+superb+speech+clarity+yourself&tbclid=GiApPgcF1d8cknUg4Dz6L1q8wWzo6P8ZCP97VJt70jIJhSCwtT8oxt2m1Yn1xLVw&lp_loaded=true&timespent=lp_30s",
   },
 ];
 
