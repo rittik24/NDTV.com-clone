@@ -5,7 +5,7 @@ const latestData = async() => {
     try{
      let main_container_dream = document.getElementById("mainNews_dream");
 
-     let res = await fetch('https://newsapi.org/v2/everything?country=in&apiKey=5e4d390ad0244deebcd33a6c09b1d70f');
+     let res = await fetch('https://newsapi.org/v2/everything?q=cities&apiKey=5e4d390ad0244deebcd33a6c09b1d70f');
      let data = await res.json();
      let actualData = data.articles;
      console.log("maindata:",actualData);

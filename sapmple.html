@@ -16,7 +16,7 @@
   try{
    let left_side_container = document.getElementById("left-side-div_dream");
    
-   let res = await fetch('https://newsapi.org/v2/everything?q=add&apiKey=5e4d390ad0244deebcd33a6c09b1d70f');
+   let res = await fetch('https://newsapi.org/v2/everything?q=live&apiKey=5e4d390ad0244deebcd33a6c09b1d70f');
    let data = await res.json();
    let actualData = data.articles
    console.log("add-data:",actualData);
