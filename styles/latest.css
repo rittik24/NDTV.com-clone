@@ -99,14 +99,14 @@
     font-size: 14px;
 }
 #trendDiv_dream{
- background-color: rgb(235, 231, 231); 
- font-size: 15px;
- font-weight: bold;
- padding:5px 40px;
- width:80%;
- margin-left:25px;
- border: none;
- border-radius:5px;
+    background-color: rgb(235, 231, 231); 
+    font-size: 15px;
+    font-weight: bold;
+    padding:5px 40px;
+    width:80%;
+    margin-left:25px;
+    border: none;
+    border-radius:5px;
 }
 #smbox_dream{
     width:100%;
@@ -116,6 +116,18 @@
     width:100%;
     height:200px;
     margin-bottom:-20px;
+}
+#title_dream:hover{
+    cursor: pointer;
+    color:#245E8A;
+}
+#text-title_dream:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#add-title_dream:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 

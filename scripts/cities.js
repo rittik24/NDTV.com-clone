@@ -1,11 +1,11 @@
 import {appendAddNews, appendMainNews, appendTrendingNews } from "../scripts/append.js";
 
-const indiaData = async() => {
+const mainData = async() => {
   
     try{
      let main_container_dream = document.getElementById("mainNews_dream");
 
-     let res = await fetch('https://newsapi.org/v2/top-headlines?country=in&apiKey=2f3bb466d7844fbc9cc8353140c31657');
+     let res = await fetch('https://newsapi.org/v2/everything?q=cities&apiKey=2f3bb466d7844fbc9cc8353140c31657');
      let data = await res.json();
      let actualData = data.articles;
      console.log("maindata:",actualData);
@@ -14,7 +14,7 @@ const indiaData = async() => {
         console.log(err);
     }
 }
-indiaData();
+mainData();
 
 const trendingData = async() => {
   
@@ -46,5 +46,3 @@ const trendingData = async() => {
            }
         };
        addNews();
-
-
