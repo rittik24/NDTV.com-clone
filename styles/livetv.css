@@ -15,8 +15,8 @@
 }
 #promo-ad{
     width: 25%;
-    border: 1px solid;
-    margin-top: 500px;
+    /* border: 1px solid; */
+   margin-top: 500px;
 }
 #promo-ad>image{
     width:auto;
