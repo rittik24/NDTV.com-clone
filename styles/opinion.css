@@ -1,0 +1,119 @@
+*{
+    font-family: roboto,sans-serif;
+    
+  }
+  #maindiv-1_dream{
+      border:0px solid red;
+      width: 85%;
+      margin: auto;
+  }
+  #maindiv-2_dream{
+      border: 0px solid black;
+      display: flex;
+      width:100%;
+      height:auto;
+      margin: auto;
+      gap:40px;
+  }
+  #maindiv-1_dream h1{
+      font-weight:900px;
+      font-size: 42px;
+      line-height: 48px;
+  }
+  #maindiv-1_dream a{
+      text-decoration: none;
+      color:#245E8A;
+  }
+  #left-side-div_dream{
+      border:0px solid green;
+      width:20%;
+      display: flex;
+      gap:20px;
+      flex-direction: column;
+      height:auto;
+  }
+  #right-side-div_dream{
+      border:0px solid rgb(255, 0, 179);
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      gap:30px;
+  }
+  #mainNews_dream{
+      border:0px solid blue;
+      width: 55%;
+      height:auto;
+      display: flex;
+      flex-direction: column;
+      gap:20px;
+  }
+  
+  #div3_dream{
+      width:150px;
+      height:120px;
+      margin-top: 15px;
+      border-radius: 6px;
+  }
+  #div3_dream img{
+      width:150px;
+      height:100%;
+      border-radius: 6px;
+  }
+  #div_dream{
+      display: flex;
+      gap:15px;
+      height:180px;
+      border-radius:8px;
+      padding: 20px;
+      box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  }
+  #div2_dream{
+      height:180px;
+      border:0px solid grey;
+      overflow: hidden;
+      
+  }
+  #div2_dream>p{
+      font-size: 15px;
+      color:gray;
+  }
+  #div_dream:hover{
+      cursor: pointer;
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  }
+  #chbox_dream{
+      display:flex;
+      width:100%;
+      height:auto;
+      gap:10px;
+      box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  }
+  #chbox_dream>img{
+      width:22%;
+      height:50px;
+      margin-top: 25px;
+      border-radius:5px;
+      
+  }
+  #chbox_dream>h5{
+      font-size: 14px;
+  }
+  #trendDiv_dream{
+   background-color: rgb(235, 231, 231); 
+   font-size: 15px;
+   font-weight: bold;
+   padding:5px 40px;
+   width:80%;
+   margin-left:25px;
+   border: none;
+   border-radius:5px;
+  }
+  #smbox_dream{
+      width:100%;
+      height:260px;
+  }
+  #smbox_dream img{
+      width:100%;
+      height:200px;
+      margin-bottom:-20px;
+  }
