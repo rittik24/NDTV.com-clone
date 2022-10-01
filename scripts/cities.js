@@ -1,5 +1,4 @@
 import {appendAddNews, appendMainNews, appendTrendingNews } from "../scripts/append.js";
-
 const mainData = async() => {
   
     try{

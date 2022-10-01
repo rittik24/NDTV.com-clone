@@ -5,10 +5,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 /* header  */
+
 #header{
     width: 100%;
     height: auto;
     background-color: #3E3E3E;
+    text-transform: uppercase;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
 }
 #top_nav{
     width: 100%;
