@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NDTV HOME</title>
+    <script src="https://kit.fontawesome.com/1bff261df8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="./scripts/script.js" type="module"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <!-- export -->
+    <link rel="stylesheet" href="./styles/entertainemnt.css">
+    <link rel="shortcut icon" href="https://www.thehindu.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- geo map -->
+    <script type="text/javascript">
+
+        
+
+        google.charts.load('current', {
+            'packages': ['geochart'],
+            // Note: Because this chart requires geocoding, you'll need mapsApiKey.
+            // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
+            'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
+        });
+        google.charts.setOnLoadCallback(drawRegionsMap);
+
+        function drawRegionsMap() {
+            var data = google.visualization.arrayToDataTable([
+                ['State Code', 'State', 'Result'],
+                ['IN-AN', 'Andaman and Nicobar Islands', 9],
+                ['IN-AP', 'Andhra Pradesh', 10],
+                ['IN-AR', 'Arunachal Pradesh', 34],
+                ['IN-AS', 'Assam', 3],
+                ['IN-BR', 'Bihar', 50],
+                ['IN-CH', 'Chandigarh', 115],
+                ['IN-CT', 'Chhattisgarh', 304],
+                ['IN-DN', 'Dadra and Nagar Haveli', 34],
+                ['IN-DD', 'Daman and Diu', 94],
+                ['IN-DL', 'Delhi', 3324],
+                ['IN-GA', 'Goa', 716],
+                ['IN-GJ', 'Gujarat', 894],
+                ['IN-HR', 'Haryana', 1114],
+                ['IN-HP', 'Himachal Pradesh', 1254],
+                ['IN-JK', 'Jammu and Kashmir', 374],
+                ['IN-JH', 'Jharkhand', 3402],
+                ['IN-KA', 'Karnataka', 644],
+                ['IN-KL', 'Kerala', 3454],
+                ['IN-LA', 'Ladakh', 454],
+                ['IN-LD', 'Lakshadweep', 745],
+                ['IN-MP', 'Madhya Pradesh', 454],
+                ['IN-MH', 'Maharashtra', 544],
+                ['IN-MN', 'Manipur', 654],
+                ['IN-ML', 'Meghalaya', 154],
+                ['IN-MZ', 'Mizoram', 54],
+                ['IN-NL', 'Nagaland', 7641],
+                ['IN-OR', 'Odisha', 1545],
+                ['IN-PY', 'Puducherry', 5745],
+                ['IN-PB', 'Punjab', 4541],
+                ['IN-RJ', 'Rajasthan', 4857],
+                ['IN-SK', 'Sikkim', 345],
+                ['IN-TN', 'Tamil Nadu', 4557],
+                ['IN-TG', 'Telangana', 5422],
+                ['IN-TR', 'Tripura', 5456],
+                ['IN-UP', 'Uttar Pradesh', 788],
+                ['IN-UT', 'Uttarakhand', 154],
+                ['IN-WB', 'West Bengal', 5474]]);
+
+            var options = {
+                region: 'IN',
+                resolution: 'provinces',
+                colorAxis: { colors: ['#ffeb3b', '#ff5722'] }
+            };
+
+            var chart = new google.visualization.GeoChart(document.getElementById('geochart-colors'));
+            chart.draw(data, options);
+        };
+    </script>
+    <!-- slider News for top pics -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" rel="stylesheet">
+    <link href="slider-boxes.css" rel="stylesheet" type="text/html">
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+    <script src="slider-boxes.js"></script> -->
+
+
+
+</head>
+
+<body>
+    <!-- <div id="navbar"></div> -->
+    <div id="Body">
+        <div id="add_left" class="add">
+            <!-- <img src="https://s0.2mdn.net/simgad/10002112593280643179" alt=""> -->
+        </div>
+
+
+        <div id="container">
+            <!-- container_mini_Nav is the tranding news points -->
+            <!-- <div id="container_mini_Nav">
+                <ul>
+                    <li>TRENDING TODAY</li>
+                    <li>MONKEYPOX</li>
+                    <li>CORONAVIRUS</li>
+                    <li>INDIA AT 75</li>
+                </ul>
+            </div> -->
+
+            <!-- this contains actual data of website -->
+            <div id="container_workFlow">
+                <div id="workflow_part_1">
+                    <div id="container_workflow_Breaking">
+                        <div id="part_1_left">
+
+                            <div id="part_1_left_breaking_big">
+                                <!-- main breaking news & main div in landing page -->
+                                <!-- i am appending all the news in big div -->
+                            </div>
+
+                            <div id="part_1_left_breaking_mini">
+                                <!-- news in small box -->
+                                <!-- i am appending all the news in small div -->
+                            </div>
+
+                        </div>
+                        <div id="part_1_right">
+                            <!-- more news div in small boxes -->
+                            <!-- appensing small div here -->
+                        </div>
+                    </div>
+
+                    <div id="container_workflow_slider">
+                        <!-- SLIDING DATA REMAINS -->
+                        <div id="slidy-container">
+                            <figure id="slidy">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOwoDxKpWadcnbtr1k25uhUGcb1cCf-9rAzA&usqp=CAU"
+                                    alt="">
+                                <img src="data:image/png;base64,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"
+                                    alt="">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPnb2SYKX53MsYCPpA-1IRXCfHOwdVmugizQ&usqp=CAU"
+                                    alt="">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOQa4NuUxLtEVgGKGwQvseWBgn2h7OXGPzhA&usqp=CAU"
+                                    alt="">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkxmNN6jcBEwzkcAcTYLmYsTcEYvxERFI_gA&usqp=CAU"
+                                    alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div id="container_workflow_mumbai">
+                        <!-- appending two more mini news div -->
+                    </div>
+                    <div id="coronavirus">
+                        <div id="coronavirus_heading">
+                            <div>
+                                <h2>COVID-19 TRACKER</h2>
+                            </div>
+                            <div>
+                                <h2>SEE ALL REPORTS</h2>
+                            </div>
+                        </div>
+                        <div id="coronavirus_Data">
+                            <div id="geochart-colors">
+                                <!-- geomap ofindia -->
+                            </div>
+                            <div id="barchart_color">
+                                <h2>Vaccination Progress</h2>
+                                <div class="mini_data">
+                                   
+                                    <div class="mini_data_topic">
+                                        <h2>Fully vaccinated</h2>
+                                        <h2>68.5%</h2>
+                                    </div>
+                                    <div class="miniData_chart">
+                                        <div id="Fully_vaccinated"></div>
+                                    </div>
+                                </div>
+                                <div class="mini_data">
+                                    <div class="mini_data_topic">
+                                        <h2>At least one dose*</h2>
+                                        <h2>74.6%</h2>
+                                    </div>
+                                    <div class="miniData_chart">
+                                        <div id="At_least_one_dose"></div>
+                                    </div>
+                                    <h4>*as a % estimated full population, 2021</h4>
+                                </div>
+                            </div>
+                            <div id="barchart_color_2">
+                                <div class="mini_data">
+                                    <div class="mini_data_topic">
+                                        <h2>Age 18+</h2>
+                                        <h2>194</h2>
+                                    </div>
+                                    <div class="miniData_chart">
+                                        <div id="age18"></div>
+                                    </div>
+                                </div>
+                                <div class="mini_data">
+                                    <div class="mini_data_topic">
+                                        <h2>Age 45+</h2>
+                                        <h2>204</h2>
+                                    </div>
+                                    <div class="miniData_chart">
+                                        <div id="age45"></div>
+                                    </div>
+                                </div>
+                                <div class="mini_data">
+                                    <div class="mini_data_topic">
+                                        <h2>Age 60+</h2>
+                                        <h2>209</h2>
+                                    </div>
+                                    <div class="miniData_chart">
+                                        <div id="age60"></div>
+                                    </div>
+                                    <h4>Dose per 100 people</h4>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- showing adds -->
+                <div id="workflow_part_2">
+                    <!-- appending all addes in part 2 of work flow  -->
+                </div>
+            </div>
+
+
+            <!-- top picks -->
+
+            <div id="top_sliding">
+                <div id="topPicks">
+                    <h1>Top Picks <span>1/10</span></h1>
+                    <div id="border_only"></div>
+                    <div id="topPicks_left"><i class="fa-solid fa-chevron-left"></i></div>
+                    <div id="topPicks_right"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+
+                <div id="top_sliding_news">
+                    <!-- small box news -->
+                    <!-- appending data from api -->
+                    <!-- <section class="orange-fade p-5 margin-top-xl pos-r">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="testimonial-carousel">
+                                        <div class="one-slide white">
+                                            <div class="brand"><img alt="Florida Dairy Farmers"
+                                                    src="https://th-i.thgim.com/public/incoming/tk41mv/article65806474.ece/alternates/LANDSCAPE_230/2248_24_8_2022_15_12_57_1_IMG_20220820.JPG"
+                                                    class="mx-auto" /></div>
+                                            <div class="message text-center text-gray">
+                                                Data | How States compare in agri-production: Punjab and Haryana
+                                                dominate</div>
+                                            <div class="separator">&nbsp;</div>
+                                        </div>
+                                        <div class="one-slide white">
+                                            <div class="brand"><img alt="Florida Dairy Farmers"
+                                                    src="https://th-i.thgim.com/public/incoming/h8brkx/article65810612.ece/alternates/LANDSCAPE_230/CJI.jpeg"
+                                                    class="mx-auto" /></div>
+                                            <div class="message text-center text-gray">
+                                                Watch | How is the Chief Justice of India appointed?</div>
+                                            <div class="separator">&nbsp;</div>
+                                        </div>
+                                        <div class="one-slide white">
+                                            <div class="brand"><img alt="Florida Dairy Farmers"
+                                                    src="https://th-i.thgim.com/public/incoming/5b5ryh/article65814562.ece/alternates/LANDSCAPE_320/Microsoft_Paul_Allen_ap.jpg"
+                                                    class="mx-auto" /></div>
+                                            <div class="message text-center text-gray">
+                                                Microsoft co-founder Paul Allen’s $1 billion art collection to be sold
+                                                in largest art auction ever</div>
+                                            <div class="separator">&nbsp;</div>
+                                        </div>
+                                        <div class="one-slide white">
+                                            <div class="brand"><img alt="Florida Dairy Farmers"
+                                                    src="https://th-i.thgim.com/public/entertainment/movies/oxyzqd/article65813827.ece/alternates/FREE_1200/DelhiCrimeS2_Netflix_DSCF0344_06415%20%281%29.jpg"
+                                                    class="mx-auto" /></div>
+                                            <div class="message text-center text-gray">
+                                                ‘Delhi Crime’ Season 2 series review: Chasing the moon’s shadow </div>
+                                            <div class="separator">&nbsp;</div>
+                                        </div>
+                                        <div class="one-slide white">
+                                            <div class="brand"><img alt="Florida Dairy Farmers"
+                                                    src="https://th-i.thgim.com/public/entertainment/movies/9d5dzw/article65813636.ece/alternates/LANDSCAPE_320/only%20murders.JPG"
+                                                    class="mx-auto" /></div>
+                                            <div class="message text-center text-gray">
+                                                ‘Only Murders in the Building’ Season 2 review: A breathtaking, riotous
+                                                ride</div>
+                                            <div class="separator">&nbsp;</div>
+                                        </div>
+                                        <div class="one-slide white">
+                                            <div class="brand"><img alt="Florida Dairy Farmers"
+                                                    src="https://th-i.thgim.com/public/incoming/vh4v62/article65813409.ece/alternates/LANDSCAPE_320/India_Infosys.JPEG-0f699.jpg"
+                                                    class="mx-auto" /></div>
+                                            <div class="message text-center text-gray">
+                                                Indian IT firms cut staff bonuses as U.S., European clients tighten
+                                                budgets</div>
+                                            <div class="separator">&nbsp;</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section> -->
+                </div>
+                <div id="top_add">
+                    <!-- <img src="https://s0.2mdn.net/simgad/5356890396862228147" alt=""> -->
+                </div>
+                <div id="topPics_News">
+                    <!-- small box news -->
+                    <!-- appending data from api -->
+                </div>
+
+            </div>
+
+            <!-- opinion -->
+
+            <div id="opinion">
+                <div id="opinion_head">
+                    <h1>Opinion</h1>
+                    <div id="opinion_boder_only"></div>
+                    <h5>SEE ALL</h5>
+                </div>
+                <div id="opinion_container">
+                    <div id="let_opinion">
+                        <div id="let_opinion_top">
+                            <div> <img src="https://www.thehindu.com/theme/images/th-online/editorLogo.png" alt="">
+                            </div>
+                            <div class="opinion_h3">
+                                <h3>EDITORIAL</h3>
+                                <h4>Family matters: On the Congress and the Gandhis</h4>
+                            </div>
+                            <div class="opinion_h3">
+                                <h3>EDITORIAL</h3>
+                                <h4>Keep it simple: On Aadhaar-voter ID linking</h4>
+                            </div>
+                            <!-- append -->
+                        </div>
+                        <div id="let_opinion_buttom">
+
+                            <div id="buttom_left">
+                                <div id="left_top">
+                                    <!-- append 1 small div -->
+                                </div>
+                                <div id="left_buttom">
+                                    <!-- cartoon -->
+                                    <h2>CARTOON</h2>
+                                    <!-- append -->
+                                </div>
+                            </div>
+                            <div id="buttom_right">
+                                <!-- appending 3 small div here -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="opinion_right">
+                        <div id="right_heading">
+                            <h2>Trending on The Hindu</h2>
+                        </div>
+                        <div id="right_content">
+
+                            <div class="hedline">
+                                <h2 class="hedline_h2"><i class="fa-regular fa-eye"></i>
+                                    <span class="hedline_span">2K</span>
+                                    DRDO, Indian Navy test fire indigenous Vertical Launch Short Range surface-to-air
+                                    issile
+                                </h2>
+                            </div>
+                            <div class="hedline">
+                                <h2 class="hedline_h2"><i class="fa-regular fa-eye" class="hedline_i"></i>
+                                    <span class="hedline_span">4K</span>
+                                    Adani Group is 'deeply overleveraged', warns CreditSights
+                                </h2>
+                            </div>
+                            <div class="hedline">
+                                <h2 class="hedline_h2"><i class="fa-regular fa-eye" class="hedline_i"></i>
+                                    <span class="hedline_span">1K</span>
+                                    Sporting trouble: On Supreme Court terminating mandate to manage the football body
+                                </h2>
+                            </div>
+                            <div class="hedline">
+                                <h2 class="hedline_h2"><i class="fa-regular fa-eye" class="hedline_i"></i>
+                                    <span class="hedline_span">3K</span>
+                                    Railway Ministry gives nod to Bengaluru-Mangaluru train via Mysuru six days a week
+                                </h2>
+                            </div>
+                            <div class="hedline">
+                                <h2 class="hedline_h2"><i class="fa-regular fa-eye" class="hedline_i"></i>
+                                    <span class="hedline_span">3K</span>
+                                    Railway Ministry gives nod to Bengaluru-Mangaluru train via Mysuru six days a week
+                                </h2>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- explain -->
+
+            <div id="explain">
+                <div id="explain_head">
+                    <h1>Explain</h1>
+                    <div id="explain_boder_only"></div>
+                </div>
+
+                <!-- main contaxt starts -->
+
+                <div id="explain_content">
+                    <div id="explain_left">
+                        <div id="explain_left_left">
+                            <!-- append -->
+                        </div>
+                        <div id="explain_left_right">
+                            <!-- append small data -->
+                        </div>
+                    </div>
+                    <div id="explain_right">
+
+                        <div id="explain_right_heading">
+                            <h2>Explained | Who is Xiao Jianhua, the Chinese billionaire given a 13-year prison
+                                sentence?</h2>
+                        </div>
+
+                        <div id="explain_right_content">
+                            <h3>The Chinese-Canadian tycoon was convicted of a string of financial offences </h3>
+                            <h3>DIKSHA MINJAL</h3>
+                            <div class="content_img_div">
+                                <img src="https://th-i.thgim.com/public/incoming/e7irak/article65797495.ece/alternates/LANDSCAPE_300/IMG_iStock-1205555607.jp_2_1_G19H7275.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+            <!-- columns -->
+            <div id="columns">
+                <div id="columns_head">
+                    <h1>Columns</h1>
+                    <div id="columns_boder_only"></div>
+                </div>
+
+                <!-- main content start from here -->
+                <div id="colmuns_content">
+                    <div class="column_div">
+                        <div class="column_image">
+                            <img src="https://th-i.thgim.com/public/todays-paper/tp-in-school/article19460475.ece/alternates/SQUARE_80/ALL1FrontPgAG6D25N3QU12jpgjpg"
+                                alt="">
+                        </div>
+                        <div class="column_text">
+                            <h3>Political Line | India@75: state of democracy, the freebie debate, new Kashmir voters
+                                and more</h3>
+                            <h4>VARGHESE K. GEORGE</h4>
+                        </div>
+                    </div>
+                    <div class="column_div">
+                        <div class="column_image">
+                            <img src="https://th-i.thgim.com/public/incoming/9q7rkh/article65757397.ece/alternates/SQUARE_80/lizards22.jpg"
+                                alt="">
+                        </div>
+                        <div class="column_text">
+                            <h3>Allegedly | | Satire | You can’t win against a reptile
+                            </h3>
+                            <h4> G. SAMPATH</h4>
+                        </div>
+                    </div>
+                    <div class="column_div">
+                        <div class="column_image">
+                            <img src="https://www.thehindu.com/theme/images/th-online/thlogov1.png" alt="">
+                        </div>
+                        <div class="column_text">
+                            <h3> READERS' EDITOR: TERMS OF REFERENCE</h3>
+                            <h4> CODE OF EDITORIAL VALUES</h4>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- multimedia -->
+            <div id="multimedia">
+                <div id="multimedia_head">
+                    <h1>Multimedia</h1>
+                    <div id="multimedia_boder_only"></div>
+                </div>
+
+                <!-- multimedia content starts -->
+
+                <div id="multimedia_content">
+                    <div class="multi_1">
+                        <div class="top_1">
+                            <div id="top1_1">
+                                <!-- background image -->
+                            </div>
+                            <div id="top1_text_1">
+                                <h2>Watch | How is the Chief Justice of India appointed?</h2>
+                            </div>
+                        </div>
+                        <div class="bottom_1">
+                            <div class="bottom_left" id="b_1">
+                                <h3>Watch | This UK restaurant has carbon footprint on its menu</h3>
+                            </div>
+                            <div class="bottom_right" id="b_2">
+                                <h3>Business Matters | Senior care in India: Why are corporates showing interest?</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="multi_1">
+                        <div class="top_1">
+                            <div id="top1_2">
+                                <!-- background image -->
+                            </div>
+                            <div id="top1_text_2">
+                                <h2>Watch | How is the Chief Justice of India appointed?</h2>
+                            </div>
+                        </div>
+                        <div class="bottom_1">
+                            <div class="bottom_left" id="b_3">
+                                <h3>Watch | All about the Kataragama Perahera in Sri Lanka</h3>
+                            </div>
+                            <div class="bottom_right" id="b_4">
+                                <h3>Going north, a hark back to the glory of the fishing city by the sea</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="multi_2">
+                        <div> <img src="https://tpc.googlesyndication.com/simgad/13674393460822833116" alt=""></div>
+                        <div> <img
+                                src="https://www.thehindu.com/education/wzabal/article17481996.ece/alternates/FREE_300/know-your-english-promo"
+                                alt=""></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- sport -->
+
+            <div id="sport">
+                <div id="sport_head">
+                    <h1>Sport</h1>
+                    <div id="sport_boder_only"></div>
+                </div>
+
+                <!-- main contaxt starts -->
+
+                <div id="sport_content">
+                    <div id="sport_left">
+                        <div id="sport_left_left">
+                            <!-- append -->
+                        </div>
+                        <div id="sport_left_right">
+                            <!-- append small data -->
+                        </div>
+                    </div>
+                    <div id="sport_right">
+
+                        <div id="sport_right_heading">
+                            <h2>T20 World Cup 2022 | ICC releases standing tickets for India-Pakistan clash</h2>
+                        </div>
+
+                        <div id="sport_right_content">
+                            <h3>The general tickets for the marquee game were sold out within five minutes of going on
+                                sale in February</h3>
+                            <h3>PTI</h3>
+                            <div class="content_img_div">
+                                <img src="https://th-i.thgim.com/public/incoming/jm0so1/article65808850.ece/alternates/LANDSCAPE_300/000_32GY3KT.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- business -->
+
+            <div id="business">
+                <div id="business_head">
+                    <h1>Business</h1>
+                    <div id="business_boder_only"></div>
+                </div>
+
+                <!-- main contaxt starts -->
+
+                <div id="business_content">
+                    <div id="business_left">
+                        <div id="business_left_left">
+                            <!-- append -->
+                        </div>
+                        <div id="business_left_right">
+                            <!-- append small data -->
+                        </div>
+                    </div>
+                    <div id="business_right">
+
+                        <div id="business_right_heading">
+                            <h2>Rupee falls 7 paise to close at ₹79.93 against U.S. dollar</h2>
+                        </div>
+
+                        <div id="business_right_content">
+                            <h3>The dollar index, which measures the greenback's strength against a basket of six
+                                currencies, was down 0.50% at 108.13.</h3>
+                            <h3>PTI</h3>
+                            <div class="content_img_div">
+                                <img src="https://th-i.thgim.com/public/incoming/s2lt7g/article65800457.ece/alternates/LANDSCAPE_300/IMG_IMG_2021-12-29T10222_2_1_02A0SQFK.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Viewfinder -->
+
+            <div id="Viewfinder">
+                <div id="Viewfinder_head">
+                    <h1>Viewfinder</h1>
+                    <div id="Viewfinder_boder_only"></div>
+                </div>
+
+                <!-- content starts here -->
+
+                <div id="view_content">
+
+                    <div id="view_content_left">
+                        <!-- background image and h3 tag -->
+                        <h3>A permanent pathway for the differently abled is under construction at the Marina beach in
+                            Chennai on August 25, 2022. | Photo Credit: R. Ragu</h3>
+                    </div>
+                    <div id="view_content_right">
+                        <!--  addvertisement -->
+                        <div id="contact">
+                            <div>
+                                <h2>Connect with Us</h2>
+                            </div>
+                            <div>
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-square-twitter"></i>
+                                <i class="fa-brands fa-square-instagram"></i>
+                                <i class="fa-brands fa-youtube"></i>
+
+                            </div>
+
+                        </div>
+                        <div>
+                            <img src="https://www.thehindu.com/theme/images/th-online/puzzle.jpeg" alt="">
+                        </div>
+                        <div>
+                            <img src="https://www.thehindu.com/theme/images/th-online/archive.jpg" alt="">
+                            <h1>From the Achives</h1>
+                            <h2>This day 50 years ago in The Hindu</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="photo_slide">
+                <div id="slide_left">
+                    <div id="photo_choose"></div>
+
+                    <div id="text_choose">
+                        <div>
+                            <h2>Living in Chennai, celebrating Madras </h2>
+                        </div>
+                        <div>
+                            <h2>From bell bottoms to actresses’ gowns, meet Chennai’s original trend-makers</h2>
+                        </div>
+                        <div>
+                            <h2>Netha captures the lives of Telangana handloom weavers</h2>
+                        </div>
+                    </div>
+                </div>
+                <div id="slide_right">
+                    <img src="https://secure-ds.serving-sys.com/resources/PROD/asset/144375/IMAGE/20220817/Rohit-Scheme__300x250_30_73070565054778339.jpg"
+                        alt="">
+                </div>
+            </div>
+
+            <div id="miniNav">
+                <ul>
+                    <li>TRENDING TODAY</li>
+                    <li>MONKEYPOX</li>
+                    <li>CORONAVIRUS</li>
+                    <li>INDIA AT 75</li>
+                </ul>
+            </div>
+
+            <div id="again_slide">
+
+                <!-- append all samll news -->
+            </div>
+
+            <!-- <div id="navbarFirst"></div> -->
+            <!-- <div id="footer"></div> -->
+
+            <!-- container DIV ends here-->
+        </div>
+
+
+
+        <div id="add_right" class="add">
+            <img src="https://s0.2mdn.net/simgad/10002112593280643179" alt="">
+        </div>
+
+
+
+
+
+
+    </div>
+</body>
+
+</html>
+
