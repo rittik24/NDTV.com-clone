@@ -1,15 +1,5 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: #505050;
-}
-
-
 
 /* MAIN CHANGES IN BODY */
-
 #add_left{
     position: sticky;
     top: 0px;
