@@ -6,10 +6,6 @@ const appendMainNews = (data,container) => {
 
       let div = document.createElement("div");
       div.id="div_dream";
-      div.onclick=()=>{
-      localStorage.setItem("detailed-news",JSON.stringify(el));
-      window.location.href="detailed-news.html";
-      };
       
       let div3 = document.createElement("div");
       div3.id="div3_dream"
@@ -54,11 +50,7 @@ const appendTrendingNews = (data,container) => {
  
        let chbox = document.createElement("div");
        chbox.id="chbox_dream";
-       chbox.onclick=()=>{
-        localStorage.setItem("detailed-news",JSON.stringify(el));
-        window.location.href="detailed-news.html";
-        };
- 
+      
        let img = document.createElement("img");
        img.src=el.urlToImage;
  

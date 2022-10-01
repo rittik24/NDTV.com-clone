@@ -6,6 +6,7 @@
       border:0px solid red;
       width: 85%;
       margin: auto;
+      margin-top: 50px;
   }
   #maindiv-2_dream{
       border: 0px solid black;
@@ -19,6 +20,8 @@
       font-weight:900px;
       font-size: 42px;
       line-height: 48px;
+      margin-top: 20px;
+      margin-bottom:30px ;
   }
   #maindiv-1_dream a{
       text-decoration: none;
@@ -86,6 +89,7 @@
       width:100%;
       height:auto;
       gap:10px;
+      padding: 10px;
       box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
   }
   #chbox_dream>img{
@@ -115,5 +119,5 @@
   #smbox_dream img{
       width:100%;
       height:200px;
-      margin-bottom:-20px;
+      margin-bottom:10px;
   }
