@@ -5,7 +5,7 @@ const latestData = async() => {
     try{
      let main_container_dream = document.getElementById("mainNews_dream");
 
-     let res = await fetch('https://newsapi.org/v2/everything?q=latest&apiKey=2f3bb466d7844fbc9cc8353140c31657');
+     let res = await fetch('https://newsapi.org/v2/everything?q=latest&apiKey=de829986749e4d2b88a27db3a10d200e');
      let data = await res.json();
      let actualData = data.articles;
      console.log("maindata:",actualData);
@@ -21,7 +21,7 @@ const trendingData = async() => {
     try{
      let left_side_container = document.getElementById("left-side-div_dream");
      
-     let res = await fetch('https://newsapi.org/v2/everything?q=trending&apiKey=2f3bb466d7844fbc9cc8353140c31657');
+     let res = await fetch('https://newsapi.org/v2/everything?q=trending&apiKey=de829986749e4d2b88a27db3a10d200e');
      let data = await res.json();
      let actualData = data.articles
      console.log("trending:",actualData);
