@@ -35,9 +35,10 @@ return ` <div id="top_nav">
     <a href="./offbeat.html">OFFBEAT</a>
     <a href="./trends.html">TREND</a>
     <a href="./jobs.html">JOBS</a>
+    <a href="./people.html">PEOPLE</a>
     <i class="fa" id="dot">&#xf141;</i>
     <!-- <a href="#" id="south">SOUTH</a>
-    <a href="./people.html">PEOPLE</a>
+   
     <a href="https://www.ndtv.com/video#pfrom=home-ndtv_mainnavgation">VIDEO</a>
     <a href="https://www.ndtv.com/photos#pfrom=home-ndtv_mainnavgation">PHOTOS</a>
     <a href="https://social.ndtv.com/static/Weather/report/#pfrom=home-ndtv_topsubnavigation">WEATHER</a>

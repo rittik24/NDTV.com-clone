@@ -12,11 +12,16 @@
     background-color: #3E3E3E;
     text-transform: uppercase;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    position: fixed;
+    z-index: 999;
+    margin-bottom: 100px;
+    top: 0;
 }
 #top_nav{
     width: 100%;
     height: auto;
     display: flex;
+    /* position: relative; */
 }
 #logo,.logo{
     width: 100px;
@@ -31,6 +36,10 @@
     height: auto;
     padding-left: 20px;
     align-items: center;
+    /* position:sticky; */
+    background-color: #3E3E3E;
+    /* z-index: 999;
+    top: 0px; */
 }
 #log,.logo{
     width: 10%;
@@ -42,6 +51,7 @@
     height:40px;
     padding-left: 20px;
     padding-right: 10px;
+    background-color: #3E3E3E;
 }
 #sub_menu a{
     color: white;
