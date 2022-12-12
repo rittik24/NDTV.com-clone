@@ -1,4 +1,4 @@
-          NDTV.COM clone
+        NDTV.COM clone
 
         Group Leader:Rittik Haldar
         Member 1: Saloni Joshi
